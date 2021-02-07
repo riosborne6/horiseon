@@ -170,6 +170,7 @@ p {
 
 .social-media-marketing img {
     max-height: 200px;
+    margin: 0;
 }
 
 .search-engine-optimization h2 {
@@ -197,3 +198,4 @@ footer {
 footer h2 {
     font-size: 20px;
 }
+
