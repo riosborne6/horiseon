@@ -1,3 +1,5 @@
+/* The * applies to the entire HTMl.  */
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -7,6 +9,8 @@
 body {
     background-color: #d9dcd6;
 }
+
+/* The header section  */
 
 header {
     padding: 20px;
@@ -50,6 +54,8 @@ p {
     font-size: 16px;
 }
 
+/* This applies to the image in the hero section  */
+
 .hero img{
     height: 800px;
     width: 100%;
@@ -68,11 +74,35 @@ p {
     margin-left: 25px;
 }
 
+/* This content is on the left side the html document underneath the hero image  */
+
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
+
+/* This section applies to the text and images in the content section  */
+
+.inner-content-style {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.inner-content-style img {
+    max-height: 200px;
+}
+
+.inner-content-style h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* This benefit section applies to the aside. The aside is to the right of the content section */
 
 .benefits {
     margin-right: 20px;
@@ -85,108 +115,22 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+.benefit-style {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+.benefit-style h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
+.benefit-style img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-    margin: 0;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
 
 footer {
     padding: 30px;
